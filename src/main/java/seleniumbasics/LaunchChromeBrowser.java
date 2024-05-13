@@ -24,6 +24,7 @@ public class LaunchChromeBrowser {
 	        driver.get("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login");
 
 	        // Perform further actions or tests...
+	        
 	       // Verify that the title of the page
 	        String expTitle = "OrangeHRM";
 	        String actTitle = driver.getTitle();

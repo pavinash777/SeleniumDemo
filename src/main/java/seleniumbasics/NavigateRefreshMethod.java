@@ -14,26 +14,9 @@ public class NavigateRefreshMethod {
         // Create an instance of the ChromeDriver
         WebDriver driver = new ChromeDriver();
         
-        //Delete all cookies.
-        driver.manage().deleteAllCookies();
-        
-        //Maximize the browser.
-        driver.manage().window().maximize();
+       
 
-        // Navigate to a website
-        driver.get("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login");
-
-        
-        Thread.sleep(3000);
-        
-       // Refreshes the page
-       driver.navigate().refresh();
-        
-        
-        Thread.sleep(3000);
-        // Close the browser
-        driver.quit();
-
+       
 	}
 
 }
