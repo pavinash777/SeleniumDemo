@@ -40,7 +40,7 @@ public class ScreenshotGuide {
 		        File src = ts.getScreenshotAs(OutputType.FILE);
 		        
 		        // Save the screenshot to a desired location
-		        File trg = new File(System.getProperty("user.dir")+"//Screenshots//"+"orangehrm1.png");
+		        File trg = new File(System.getProperty("user.dir")+"//Screenshots//"+"orangehrm.png");
 		        
 		        //File trg = new File(System.getProperty("user.dir")+"//Screenshots//orangehrm.png");
 		        
